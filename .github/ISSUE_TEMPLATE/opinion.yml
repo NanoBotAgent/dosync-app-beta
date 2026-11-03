@@ -1,0 +1,27 @@
+name: "💬 Opinión / Feedback"
+description: "Cuéntanos cómo te fue con DoSync · Tell us how DoSync worked for you"
+labels: ["opinión"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por probar la beta! Todo sirve: lo bueno, lo malo y las ideas.
+        Thanks for trying the beta! Everything helps: the good, the bad and ideas.
+        **No pongas contraseñas, claves ni direcciones de tu casa. · Don't include passwords, keys or your address.**
+  - type: textarea
+    id: bien
+    attributes:
+      label: "¿Qué funcionó bien? · What worked well?"
+  - type: textarea
+    id: mal
+    attributes:
+      label: "¿Qué no funcionó o te costó? · What didn't work or was hard?"
+  - type: textarea
+    id: idea
+    attributes:
+      label: "¿Qué te gustaría que haga? · What would you like it to do?"
+  - type: input
+    id: pais
+    attributes:
+      label: "País (opcional) · Country (optional)"
+      description: "Nos ayuda a saber qué marcas sumar. · Helps us pick brands to add."

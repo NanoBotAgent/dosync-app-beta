@@ -1,0 +1,149 @@
+# DoSync App · beta abierta
+
+**Español** · [English](#english)
+
+> 🧪 **Está en beta.** La app ya funciona en casas reales, pero todavía la estamos
+> probando con muchas marcas y aparatos. Puede haber errores, y algunas marcas
+> están probadas solo con simuladores. **Tu opinión nos ayuda muchísimo**: lo que
+> funcionó, lo que no y lo que te gustaría que haga.
+
+DoSync es una app gratis para Android que maneja tu casa con tus propias
+palabras: *"apagá todas las luces"*, *"poné el aire del dormitorio en 24"*,
+*"poné en la tele el último video de Luisito Comunica"*. **El teléfono es el hub**:
+no hace falta comprar otro aparato ni crear una cuenta nuestra.
+
+<p>
+<img src="capturas/01-inicio.png" width="200" alt="Inicio: escribir o decir una orden">
+<img src="capturas/04-dispositivos.png" width="200" alt="Dispositivos encontrados en el WiFi">
+<img src="capturas/03-controles.png" width="200" alt="Controles de un aparato">
+<img src="capturas/02-rutinas.png" width="200" alt="Rutinas">
+</p>
+
+## Descargar
+
+| Dónde | Estado |
+|---|---|
+| **GitHub** (este repositorio) | [Última versión ↓](../../releases/latest): baja `DoSync-x.y.z.apk` y ábrelo en tu Android (8.0 o más nuevo). La app te avisa cuando hay una versión nueva. |
+| **Google Play** (prueba abierta) | Muy pronto. Cuando esté, el enlace aparece acá y en [dosync.dev/app](https://dosync.dev/app). |
+
+Si después instalas DoSync desde Google Play, desinstala antes la de GitHub: están
+firmadas distinto y no se actualizan una a la otra.
+
+## Qué hace
+
+- **Encuentra sola** lo que hay en tu WiFi y por Bluetooth, y lo agrega con un toque.
+- **Entiende órdenes en 6 idiomas** (español, inglés, portugués, francés, alemán e
+  italiano) sin IA y gratis, directamente en el teléfono.
+- **Con IA (opcional)**, la tuya (Claude, Gemini o ChatGPT) o Gemini Nano en el
+  teléfono: busca en internet, encadena pasos, programa temporizadores y reglas
+  ("si el dormitorio pasa de 28°, prendé el aire"), crea escenas.
+- **Escenas y rutinas** que funcionan con la app cerrada: a una hora, al llegar o
+  irte de casa, o cuando un aparato cambia.
+- **Control infrarrojo** con el emisor del teléfono o un Broadlink: biblioteca de
+  cientos de aires, teles y equipos.
+- **Lo delicado espera tu confirmación**: abrir una cerradura o un portón, prender
+  un horno.
+
+## Marcas
+
+Más de 80 marcas y sistemas. Algunas por tu WiFi, sin internet; otras con la
+cuenta de la marca.
+
+- **Luces y enchufes:** Philips Hue y WiZ, TP-Link Kasa y Tapo, Shelly, Sonoff,
+  Tasmota, Yeelight, Govee, LIFX, Nanoleaf, Smart Life / Tuya (Positivo, Steren,
+  Nexxt, Lidl…), Belkin Wemo, IKEA DIRIGERA, deCONZ.
+- **Teles y audio:** Samsung, LG, Philips, Android TV / Google TV, Fire TV, Roku,
+  Vizio, Chromecast, Sonos, Denon / Marantz, Yamaha, Onkyo.
+- **Clima:** aires con control remoto, Gree, Daikin, tado°, Netatmo, Google Nest,
+  Bosch Smart Home, Homematic, FRITZ!DECT.
+- **Electrodomésticos:** Bosch / Siemens (Home Connect), Electrolux / AEG, Miele,
+  LG ThinQ, Samsung SmartThings, robots Roomba y Xiaomi.
+- **Puertas y persianas:** Nuki, Tedee, Somfy TaHoma, Hunter Douglas PowerView,
+  Legrand / BTicino.
+- **Y todo lo que tengas en** Home Assistant, Zigbee2MQTT o SmartThings.
+
+Lo que no tiene WiFi, Bluetooth ni control remoto no se puede manejar desde ningún
+teléfono: la app te lo explica y te sugiere un enchufe inteligente.
+
+## Opiniones y errores
+
+- **[Contar cómo te fue](../../issues/new?template=opinion.yml)**: lo que te gustó, lo que no, ideas.
+- **[Avisar de un error](../../issues/new?template=error.yml)**.
+- **[Pedir una marca o un aparato](../../issues/new?template=marca.yml)**.
+- O escribe a **giulianireg@gmail.com**.
+
+Desde la app también puedes reportar una respuesta rara de la IA (Ajustes).
+
+## Privacidad
+
+Tus datos quedan en tu teléfono: DoSync no tiene servidores que los reciban.
+[Política de privacidad](https://giulianireg-spec.github.io/dosync-adapters/privacidad/).
+
+## Sobre este repositorio
+
+Acá se publican las versiones para descargar, las novedades y las opiniones. El
+código de la app no es público. DoSync App usa el
+[protocolo abierto DoSync](https://dosync.dev), y el catálogo de adaptadores es
+público en [dosync-adapters](https://github.com/giulianireg-spec/dosync-adapters).
+
+Uso gratis según la [licencia](LICENSE). © 2026 Rodrigo Giuliani.
+
+---
+
+<a id="english"></a>
+
+# DoSync App · open beta
+
+> 🧪 **This is a beta.** The app already works in real homes, but we are still
+> testing it with many brands and devices. Expect rough edges; some brands are
+> tested only against simulators. **Your feedback helps a lot**: what worked, what
+> didn't, and what you'd like it to do.
+
+DoSync is a free Android app that runs your home in your own words: *"turn off all
+the lights"*, *"set the bedroom AC to 24"*, *"put the latest video from that channel
+on the TV"*. **Your phone is the hub**: no extra device to buy, no account of ours.
+
+## Download
+
+| Where | Status |
+|---|---|
+| **GitHub** (this repository) | [Latest version ↓](../../releases/latest): download `DoSync-x.y.z.apk` and open it on your Android phone (8.0 or newer). The app tells you when a new version is out. |
+| **Google Play** (open testing) | Coming soon. The link will appear here and at [dosync.dev/app](https://dosync.dev/app). |
+
+If you later install DoSync from Google Play, uninstall the GitHub one first: they
+are signed differently and don't update each other.
+
+## What it does
+
+- **Finds** what's on your Wi-Fi and Bluetooth and adds it with one tap.
+- **Understands commands in 6 languages** (English, Spanish, Portuguese, French,
+  German and Italian) on the phone, free, without AI.
+- **With AI (optional)**, your own (Claude, Gemini or ChatGPT) or on-device Gemini
+  Nano: searches the web, chains steps, schedules timers and rules, creates scenes.
+- **Scenes and routines** that run with the app closed.
+- **Infrared control** with the phone's IR blaster or a Broadlink.
+- **Sensitive actions wait for your confirmation**: unlocking a door, opening a
+  gate, turning on an oven.
+
+80+ brands and systems: Philips Hue and WiZ, TP-Link, Shelly, Tuya, IKEA, Samsung,
+LG, Android TV, Fire TV, Roku, Sonos, tado°, Nest, Netatmo, Bosch, Homematic, Miele,
+Home Connect, Nuki, Somfy, Home Assistant and many more.
+
+## Feedback
+
+[Share your experience](../../issues/new?template=opinion.yml) ·
+[Report a bug](../../issues/new?template=error.yml) ·
+[Request a brand](../../issues/new?template=marca.yml) · giulianireg@gmail.com
+
+## Privacy
+
+Your data stays on your phone: DoSync has no servers that receive it.
+[Privacy policy](https://giulianireg-spec.github.io/dosync-adapters/privacy/).
+
+## About this repository
+
+This repository hosts the downloadable versions, release notes and feedback. The
+app's source code is not public. DoSync App is built on the
+[open DoSync protocol](https://dosync.dev).
+
+Free to use under the [license](LICENSE). © 2026 Rodrigo Giuliani.

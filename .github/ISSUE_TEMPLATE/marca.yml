@@ -1,0 +1,29 @@
+name: "🔌 Pedir una marca o aparato · Request a brand or device"
+description: "¿Tu aparato no aparece? Contanos cuál es · Your device isn't supported? Tell us which one"
+labels: ["marca"]
+body:
+  - type: input
+    id: marca
+    attributes:
+      label: "Marca y modelo · Brand and model"
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: "¿Con qué app de la marca se maneja hoy? · Which brand app controls it today?"
+      placeholder: "Smart Life, Mi Home, la app del fabricante…"
+  - type: dropdown
+    id: conexion
+    attributes:
+      label: "¿Cómo se conecta? · How does it connect?"
+      options:
+        - "WiFi"
+        - "Bluetooth"
+        - "Control remoto infrarrojo · IR remote"
+        - "Zigbee / Z-Wave / Matter"
+        - "No sé · Don't know"
+  - type: input
+    id: pais
+    attributes:
+      label: "País · Country"

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "✉️ Escribir por correo · Email us"
+    url: "mailto:giulianireg@gmail.com"
+    about: "Si prefieres no usar GitHub. · If you'd rather not use GitHub."
+  - name: "🌐 dosync.dev/app"
+    url: "https://dosync.dev/app"
+    about: "Qué es DoSync App y cómo probarla. · What DoSync App is and how to try it."

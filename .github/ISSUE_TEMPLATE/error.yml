@@ -1,0 +1,29 @@
+name: "🐞 Error / Bug"
+description: "Algo no funcionó como esperabas · Something didn't work as expected"
+labels: ["error"]
+body:
+  - type: markdown
+    attributes:
+      value: "**No pongas contraseñas, claves ni direcciones. · Don't include passwords, keys or addresses.**"
+  - type: textarea
+    id: que
+    attributes:
+      label: "¿Qué pasó? · What happened?"
+      description: "Y qué esperabas que pasara. · And what you expected."
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: "¿Cómo se repite? · How to reproduce?"
+      placeholder: "1. Escribí \"apagá las luces\"…"
+  - type: input
+    id: aparato
+    attributes:
+      label: "Marca y modelo del aparato · Device brand and model"
+      placeholder: "Philips WiZ A60, Samsung QN75…"
+  - type: input
+    id: version
+    attributes:
+      label: "Versión de DoSync y de Android · DoSync and Android version"
+      placeholder: "DoSync 0.1.0 · Android 14 · Samsung A54"
