@@ -25,7 +25,7 @@ no hace falta comprar otro aparato ni crear una cuenta nuestra.
 | Dónde | Estado |
 |---|---|
 | **GitHub** (este repositorio) | [Última versión ↓](../../releases/latest): baja `DoSync-x.y.z.apk` y ábrelo en tu Android (8.0 o más nuevo). La app te avisa cuando hay una versión nueva. |
-| **Google Play** (prueba abierta) | Muy pronto. Cuando esté, el enlace aparece acá y en [dosync.dev/app](https://dosync.dev/app). |
+| **Google Play** (prueba abierta) | Muy pronto. Cuando esté, el enlace aparece acá y en [dosync.dev/app](https://dosync.dev/app/?lang=es). |
 
 Si después instalas DoSync desde Google Play, desinstala antes la de GitHub: están
 firmadas distinto y no se actualizan una a la otra.
