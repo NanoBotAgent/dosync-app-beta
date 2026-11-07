@@ -52,7 +52,7 @@ firmadas distinto y no se actualizan una a la otra.
 
 ## Marcas
 
-Más de 80 marcas y sistemas. Algunas por tu WiFi, sin internet; otras con la
+Funciona con miles de dispositivos, y sumamos marcas todo el tiempo. Algunas por tu WiFi, sin internet; otras con la
 cuenta de la marca.
 
 - **Luces y enchufes:** Philips Hue y WiZ, TP-Link Kasa y Tapo, Shelly, Sonoff,
@@ -136,7 +136,7 @@ are signed differently and don't update each other.
 - **Sensitive actions wait for your confirmation**: unlocking a door, opening a
   gate, turning on an oven.
 
-80+ brands and systems: Philips Hue and WiZ, TP-Link, Shelly, Tuya, IKEA, Samsung,
+Works with thousands of devices, and more brands keep coming: Philips Hue and WiZ, TP-Link, Shelly, Tuya, IKEA, Samsung,
 LG, Android TV, Fire TV, Roku, Sonos, tado°, Nest, Netatmo, Bosch, Homematic, Miele,
 Home Connect, Nuki, Somfy, Home Assistant and many more.
 
