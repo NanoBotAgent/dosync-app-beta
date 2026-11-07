@@ -38,6 +38,11 @@ firmadas distinto y no se actualizan una a la otra.
 - **Con IA (opcional)**, la tuya (Claude, Gemini o ChatGPT) o Gemini Nano en el
   teléfono: busca en internet, encadena pasos, programa temporizadores y reglas
   ("si el dormitorio pasa de 28°, prendé el aire"), crea escenas.
+- **O IA gratis en tu computadora**, con [Ollama](https://ollama.com) o LM Studio:
+  sin clave ni pagos, y tus órdenes no salen de tu casa. La app la encuentra sola
+  en el WiFi y elige el modelo (recomendado: `qwen3`). En Ollama activa
+  *Settings → Expose Ollama to the network*. Mientras la computadora esté prendida,
+  todo funciona salvo buscar en internet.
 - **Escenas y rutinas** que funcionan con la app cerrada: a una hora, al llegar o
   irte de casa, o cuando un aparato cambia.
 - **Control infrarrojo** con el emisor del teléfono o un Broadlink: biblioteca de
@@ -121,6 +126,11 @@ are signed differently and don't update each other.
   German and Italian) on the phone, free, without AI.
 - **With AI (optional)**, your own (Claude, Gemini or ChatGPT) or on-device Gemini
   Nano: searches the web, chains steps, schedules timers and rules, creates scenes.
+- **Or free AI on your own computer**, with [Ollama](https://ollama.com) or LM Studio:
+  no key, no cost, and your commands never leave your home. The app finds it on your
+  Wi-Fi and picks the model (recommended: `qwen3`). In Ollama, turn on
+  *Settings → Expose Ollama to the network*. While the computer is on, everything
+  works except web search.
 - **Scenes and routines** that run with the app closed.
 - **Infrared control** with the phone's IR blaster or a Broadlink.
 - **Sensitive actions wait for your confirmation**: unlocking a door, opening a
