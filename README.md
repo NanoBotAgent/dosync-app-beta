@@ -25,7 +25,7 @@ no hace falta comprar otro aparato ni crear una cuenta nuestra.
 | Dónde | Estado |
 |---|---|
 | **GitHub** (este repositorio) | [Última versión ↓](../../releases/latest): baja `DoSync-x.y.z.apk` y ábrelo en tu Android (8.0 o más nuevo). La app te avisa cuando hay una versión nueva. |
-| **Google Play** (prueba abierta) | Muy pronto. Cuando esté, el enlace aparece acá y en [dosync.dev/app](https://dosync.dev/app/?lang=es). |
+| **Google Play** (prueba cerrada) | Tres pasos, con la misma cuenta de Google del teléfono: 1) [únete al grupo de testers](https://groups.google.com/g/dosync_testers), 2) [acepta la prueba](https://play.google.com/apps/testing/dev.dosync.app), 3) [instálala desde Google Play](https://play.google.com/store/apps/details?id=dev.dosync.app). Se actualiza sola e incluye **Samuel**, la IA de DoSync por suscripción. |
 
 Si después instalas DoSync desde Google Play, desinstala antes la de GitHub: están
 firmadas distinto y no se actualizan una a la otra.
@@ -43,6 +43,7 @@ firmadas distinto y no se actualizan una a la otra.
   en el WiFi y elige el modelo (recomendado: `qwen3`). En Ollama activa
   *Settings → Expose Ollama to the network*. Mientras la computadora esté prendida,
   todo funciona salvo buscar en internet.
+- **Varios hogares** (tu casa, la de la playa) y **la familia invitada** con un código de un solo uso, cifrado.
 - **Escenas y rutinas** que funcionan con la app cerrada: a una hora, al llegar o
   irte de casa, o cuando un aparato cambia.
 - **Control infrarrojo** con el emisor del teléfono o un Broadlink: biblioteca de
@@ -114,7 +115,7 @@ on the TV"*. **Your phone is the hub**: no extra device to buy, no account of ou
 | Where | Status |
 |---|---|
 | **GitHub** (this repository) | [Latest version ↓](../../releases/latest): download `DoSync-x.y.z.apk` and open it on your Android phone (8.0 or newer). The app tells you when a new version is out. |
-| **Google Play** (open testing) | Coming soon. The link will appear here and at [dosync.dev/app](https://dosync.dev/app). |
+| **Google Play** (closed test) | Three steps, with your phone's Google account: 1) [join the testers group](https://groups.google.com/g/dosync_testers), 2) [accept the test](https://play.google.com/apps/testing/dev.dosync.app), 3) [install it from Google Play](https://play.google.com/store/apps/details?id=dev.dosync.app). It updates itself and includes **Samuel**, DoSync's AI by subscription. |
 
 If you later install DoSync from Google Play, uninstall the GitHub one first: they
 are signed differently and don't update each other.
@@ -131,6 +132,7 @@ are signed differently and don't update each other.
   Wi-Fi and picks the model (recommended: `qwen3`). In Ollama, turn on
   *Settings → Expose Ollama to the network*. While the computer is on, everything
   works except web search.
+- **Several homes** (yours, the beach house) and **family invited** with a one-time, encrypted code.
 - **Scenes and routines** that run with the app closed.
 - **Infrared control** with the phone's IR blaster or a Broadlink.
 - **Sensitive actions wait for your confirmation**: unlocking a door, opening a
