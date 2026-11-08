@@ -51,6 +51,22 @@ firmadas distinto y no se actualizan una a la otra.
 - **Lo delicado espera tu confirmación**: abrir una cerradura o un portón, prender
   un horno.
 
+### Proveedores personalizados compatibles con OpenAI (hub del protocolo)
+
+El hub de referencia del [protocolo abierto DoSync](https://dosync.dev) incluye un
+[resolvedor LLM](https://github.com/giulianireg-spec/dosync-protocol/blob/main/llm_resolver.py)
+que funciona con **cualquier servidor que implemente `POST /v1/chat/completions`**:
+Ollama, LM Studio, llama.cpp, vLLM, LocalAI, OpenAI, Mistral y otros. Se configura con
+una URL base, un nombre de modelo y, si hace falta, una clave de API:
+
+```bash
+LLM_BASE_URL=https://api.example.com/v1 LLM_MODEL=mi-modelo LLM_API_KEY=... \
+  python3 llm_resolver.py
+```
+
+Más detalles en la [documentación del resolvedor](https://github.com/giulianireg-spec/dosync-protocol/blob/main/docs/LLM-RESOLVER.md).
+Esto describe el hub del protocolo, no los ajustes de IA integrados en la app de Android.
+
 ## Marcas
 
 Funciona con miles de dispositivos, y sumamos marcas todo el tiempo. Algunas por tu WiFi, sin internet; otras con la
@@ -141,6 +157,22 @@ are signed differently and don't update each other.
 Works with thousands of devices, and more brands keep coming: Philips Hue and WiZ, TP-Link, Shelly, Tuya, IKEA, Samsung,
 LG, Android TV, Fire TV, Roku, Sonos, tado°, Nest, Netatmo, Bosch, Homematic, Miele,
 Home Connect, Nuki, Somfy, Home Assistant and many more.
+
+### Custom OpenAI-compatible providers (protocol hub)
+
+The [open DoSync protocol](https://dosync.dev) reference hub includes an
+[LLM resolver](https://github.com/giulianireg-spec/dosync-protocol/blob/main/llm_resolver.py)
+that works with **any server implementing `POST /v1/chat/completions`**: Ollama,
+LM Studio, llama.cpp, vLLM, LocalAI, OpenAI, Mistral and others. Point it at your
+provider with a base URL, a model name and (if needed) an API key:
+
+```bash
+LLM_BASE_URL=https://api.example.com/v1 LLM_MODEL=my-model LLM_API_KEY=... \
+  python3 llm_resolver.py
+```
+
+See the [resolver docs](https://github.com/giulianireg-spec/dosync-protocol/blob/main/docs/LLM-RESOLVER.md).
+This describes the protocol's hub, not the Android app's built-in AI settings.
 
 ## Feedback
 
